@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>contact</title>
+        <link rel="stylesheet" href="style/contact.css">
+
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                   publicKey: "G0DvVEcwu137lBwvg",
+                });
+             })();
+        </script>
+
+       
+    </head>
+
+    <body>
+
+         <!--Burger Menu-->
+         <div class="burger-menu">
+            <ul>
+                <li><a class="home" href="index.html">HOME</a></li>
+                <li><a class="about" href="about.html">ABOUT</a></li>
+                <li><a class="contact" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+
+        <!--START mobile main-header-->
+        <div class="mobile-main-header">
+
+            <div class="pre-order">
+                <a href="preorder.html">can I pre-order yet?</a>  
+            </div>
+            <div class="mobile-social-media">
+                <div class="insta">
+                    <a href="https://www.instagram.com/sen1ti/?igsh=MWVqN29jbjNzNzZqMg%3D%3D&utm_source=qr#"  target="_blank"> 
+                        <img class="insta-img" src="icons/icons8-instagram.svg" >
+                    </a> 
+                </div>
+                <div class="twitter">
+                    <a href="https://x.com/sentirenlajamir?s=11"  target="_blank"> 
+                        <img class="twitter-img" src="icons/icons8-twitter.svg" >
+                    </a>
+                </div>
+                <div class="goodreads">
+                    <a href=""  target="_blank"> 
+                        <img class="goodreads-img" src="icons/icons8-goodreads (1).svg" >
+                    </a>
+                </div>
+            </div>    
+
+        </div>
+
+       
+
+        <!--START mobile sub-header-->
+        <div  class="mobile-sub-header">
+            <div class="left">
+                <img class="name-img" src="images/IMG_7612_1_-removebg-preview.png">
+            </div>
+            <div class="burger-menu-but"></div>
+
+        </div>
+
+        <!--END-->
+
+
+        <div class="main-header">
+            <a class="pre-order" href="preorder.html">can I pre-order yet?</a>
+        </div>
+      
+        <div class="sub-header">
+            <div class="left">
+                <img class="name-img" src="images/IMG_7612_1_-removebg-preview.png">
+            </div>
+            <div class="middle">
+                <a class="home" href="index.html">HOME</a>
+                <a class="about" href="about.html">ABOUT</a> 
+                <a class="contact" href="contact.html">CONTACT</a>  
+            </div>
+            <div class="right">
+                <div class="insta">
+                    <a href="https://www.instagram.com/sen1ti/?igsh=MWVqN29jbjNzNzZqMg%3D%3D&utm_source=qr#"  target="_blank"> 
+                        <img class="insta-img" src="icons/icons8-instagram.svg" >
+                    </a> 
+                </div>
+                <div class="twitter">
+                    <a href="https://x.com/sentirenlajamir?s=11"  target="_blank"> 
+                        <img class="twitter-img" src="icons/icons8-twitter.svg" >
+                    </a>
+                </div>
+                <div class="goodreads">
+                    <a href=""  target="_blank"> 
+                        <img class="goodreads-img" src="icons/icons8-goodreads (1).svg" >
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-hero">
+            <div class="contact-main-hero">
+                <div class="top">CONTACT</div>
+                <div class="bottom">
+                    <form id="contactForm">
+                        <label for="name">Name (required)</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+                        <label for="email">Email (required)</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+            
+                        <label for="message">Message (required)</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            
+                        <button type="button" onclick="sendEmail()">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="java script/email.js"></script>
+        <script src="java script/burger.js"></script>
+            
+        
+    </body>
+</html>

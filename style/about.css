@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+}
+
+/*  Header style  */
+
+.main-header{
+    height: 35px;
+    background-color:rgb(255, 224, 183);
+    color:dimgray;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 2%;
+
+    font-size: 20px;
+
+}
+
+.sub-header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.left{
+    display: flex;
+    align-items: bottom;
+
+   
+   
+}
+.name-img{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.right{
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+.insta-img{
+    width: 38px;
+}
+.twitter-img{
+    width: 31px;
+}
+.goodreads-img{
+    width: 43px;
+}
+.twitter{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    transition: font-size 0.3s;
+}
+a:hover{
+    font-size: 20px;
+    font-weight: 550;
+
+}
+.about{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+/*  About */
+
+.main-hero{
+    height:2000px;
+    display: flex;
+    background-image: url(../images/WhatsApp\ Image\ 2025-07-05\ at\ 01.31.17_10e6b217.jpg);
+    background-size: 100% 2070px;
+    justify-content: center;
+    align-items: center;
+}
+.about-main-hero{
+    width:80%;
+    height:1900px;
+    background-image: url(../images/IMG_7624[2].JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container-1 {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 50% 50%;
+    width:100% ;
+    height:900px ;
+    
+    
+
+}
+
+.c1-top-left{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+}
+.about-img{
+    margin-top:40px;
+    margin-left: 30%;
+    width: 60%;
+    transform: rotate(0deg);
+}
+
+
+.c1-bottom-left {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left:20%;
+}
+.highlight{
+    font-family: Patrick Hand;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.c1-right {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c1-right-img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+
+.container-2{
+    margin-top:40px;
+
+    display: grid;
+    grid-template-rows:40% 60%;
+    width: 100%;
+    height: 400px;
+    
+}
+.c2-top{
+    
+}
+.c2-top-img{
+    width: 50%;
+    margin-left: 25%;
+}
+.c2-middle{
+    font-family: reenie beanie;
+    font-size:26px;
+    text-align: center;
+}
+
+
+
+
+.container-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height:500px;
+    
+}
+.c3-left{
+   
+}
+.c3-left-img{
+    width: 80%;
+    padding-top: 40px;
+    padding-left:20%;
+    
+}
+.c3-right{
+   
+}
+.c3-right-img{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 25%;
+}
+
+
+.mobile-main-header,.mobile-sub-header,.burger-menu,.burger-menu-but{
+    display: none;
+}
+
+
+
+/*  TABLET  device   */
+
+
+/*  MOBILE  device  */
+
+@media(max-width:600px){
+
+    .main-header,.sub-header{
+        display: none;
+    }
+        
+    .mobile-main-header{
+        display: block;
+        height: 60px;
+        background-color:rgb(255, 224, 183);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        padding-left: 2%;
+    
+    }
+
+    .pre-order a{
+        text-decoration: none;
+        font-size: 15px;
+       
+    }
+    
+    .mobile-social-media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+        padding-top: 5px;
+    }
+    .mobile-main-header .insta-img{
+        width: 28px;
+    }
+    .mobile-main-header .twitter-img{
+        width: 24px;
+    }
+    .mobile-main-header .goodreads-img{
+        width: 33px;
+    }
+    
+    
+    
+    .mobile-sub-header{
+        display: block;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-image: url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        
+    }
+    .left{
+        display: flex;
+        align-items: bottom;  
+    }
+    .name-img{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .burger-menu-but{
+       
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 5%;
+        margin-right: 5%;
+        background-image: url(../icons/icons8-hamburger-menu.svg),url(../icons/icons8-cross-50.png);
+        background-size: cover;
+        background-position: center,center left 50px;
+        background-repeat: no-repeat;
+    }
+    .burger-menu{
+        margin-top: 142px;
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 35vh;
+        z-index: 3;
+        background-image:url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+    }
+    .burger-menu ul{
+        list-style: none; /* Removes the • bullet points */
+        padding: 0;        /* Removes default padding */
+        margin: 0;        
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .burger-menu ul li{
+        flex-basis: 100%;
+    }
+    .burger-menu ul li a{
+       display: block;
+       height: 100%;
+       font-size: 1.7rem;
+       padding: 20px 0;
+       flex-basis: 100%;
+       text-align: center;
+    }
+
+    
+/*  About */
+
+.main-hero{
+    height:2400px;
+    background-image: url(../images/WhatsApp\ Image\ 2025-07-05\ at\ 01.31.17_10e6b217.jpg);
+    background-size: 100% 2400px;
+   
+}
+.about-main-hero{
+    width:90%;
+    height:2350px;
+    
+}
+
+
+.container-1 {
+    display: grid;
+    grid-template-rows: 10% 35% 55%;
+    grid-template-columns: none;
+    width:100% ;
+    height:1460px ;
+    
+}
+
+.c1-top-left{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-img{
+    margin-top:0px;
+    margin-left: 0px;
+    width: 60%;
+    transform: rotate(0deg);
+}
+
+.c1-bottom-left {
+    width: 85%;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left:8%;
+    text-align: left;
+}
+.highlight{
+    font-family: Patrick Hand;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.c1-right {
+    grid-row: 2/ 3;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.c1-right-img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.container-2{
+    margin-top:60px;
+    display: grid;
+    grid-template-rows:20% 80%;
+    width: 100%;
+    height: 550px;
+    
+}
+
+.c2-top-img{
+    width: 70%;
+    margin-left: 15%;
+}
+.c2-middle{
+    width: 90%;
+    padding-left: 5%;
+    font-family: reenie beanie;
+    font-size:24px;
+    text-align: center;
+}
+
+.container-3{
+    height:200px;   
+}
+.c3-left{
+   
+}
+.c3-left-img{
+    width: 100%;
+    padding-top: 40px;
+    padding-left:10%;
+      
+}
+.c3-right{
+   
+}
+.c3-right-img{
+    width: 70%;
+    padding-top: 20px;
+    padding-left:20%;
+   
+}
+
+    
+}    

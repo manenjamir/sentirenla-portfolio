@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+}
+
+/*  Header style  */
+
+.main-header{
+    height: 35px;
+    background-color:rgb(255, 224, 183);
+    color:dimgray;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 2%;
+
+}
+
+.sub-header{
+    padding-top: env(safe-area-inset-top, 15px);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.left{
+    display: flex;
+    align-items: bottom;
+  
+   
+}
+.name-img{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.right{
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+}
+.insta-img{
+    width: 38px;
+}
+.twitter-img{
+    width: 31px;
+}
+.goodreads-img{
+    width: 43px;
+}
+.twitter{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    transition: font-size 0.3s;
+}
+a:hover{
+    font-size: 20px;
+    font-weight: 550;
+
+}
+.about{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/*  Hero Style  */
+
+.main-hero{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+
+}
+.main-hero-img{
+    width: 60%;
+    margin-bottom: 40px;
+   
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.main-hero-img:hover{
+    transform: scale(1.05);               /* Slight zoom */
+  
+}
+
+
+.second-hero {
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/WhatsApp\ Image\ 2025-06-23\ at\ 01.27.06_4150ec3f.jpg);
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+
+
+/* Author Style */ 
+
+
+.author{
+    display: flex;
+    flex-direction: row;
+    height:410px; 
+    background-image:url(../images/IMG_7580.JPG) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.senti{
+    width: 40%;
+    margin-top:30px;
+}
+.senti-img{
+    width: 70%;
+    height:360px ;
+
+}
+
+.senti-text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: aliceblue;
+
+
+}
+.p1{ 
+    height: 140px;
+    padding-top: 35px;
+    line-height: 70px;
+    position: relative;
+}
+.meet{
+    font-size: 75px;
+    font-weight: 520;
+    letter-spacing: 2px;
+    
+    position: absolute;
+    right: 10%;
+}
+.sentirenla{
+    font-size: 72px;
+    font-family: great vibes;
+    letter-spacing: 8px;
+
+    position: absolute;
+    right: 10%;
+}
+.p2{
+     
+    height:120px;
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    font-size:25px;
+    font-family:  inherit;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 8%;
+
+
+}
+.button{
+    height: 100px; 
+    position: relative;
+ 
+}
+.but{
+   position: absolute;
+   right: 10%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:aliceblue;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    transition: padding 0.5s;
+    
+}
+.but:hover{
+    padding: 15px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.mobile-main-header,.mobile-sub-header,.burger-menu,.burger-menu-but{
+    display: none;
+}
+
+
+
+/*  TABLET  device   */
+
+
+/*  MOBILE  device  */
+
+@media(max-width:600px){
+
+.main-header,.sub-header{
+    display: none;
+}
+    
+.mobile-main-header{
+    display: block;
+    height: 60px;
+    background-color:rgb(255, 224, 183);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 2%;
+
+}
+
+.pre-order a{
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+
+
+.mobile-social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-top: 5px;
+}
+.mobile-main-header .insta-img{
+    width: 28px;
+}
+.mobile-main-header .twitter-img{
+    width: 24px;
+}
+.mobile-main-header .goodreads-img{
+    width: 33px;
+}
+
+
+
+.mobile-sub-header{
+    display: block;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+.left{
+    display: flex;
+    align-items:center;  
+}
+.name-img{
+    margin-left: 60px;
+    margin-top: 0px;
+}
+.burger-menu-but{
+   
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 5%;
+    margin-right: 5%;
+    background-image: url(../icons/icons8-hamburger-menu.svg),url(../icons/icons8-cross-50.png);
+    background-size: cover;
+    background-position: center,center left 50px;
+    background-repeat: no-repeat;
+}
+.burger-menu{
+    margin-top: 142px;
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 35vh;
+    z-index: 3;
+    background-image:url(../images/WhatsApp\ Image\ 2025-07-01\ at\ 23.56.58_916599e0.jpg);
+}
+.burger-menu ul{
+    list-style: none; /* Removes the • bullet points */
+    padding: 0;        /* Removes default padding */
+    margin: 0;        
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.burger-menu ul li{
+    flex-basis: 100%;
+}
+.burger-menu ul li a{
+   display: block;
+   height: 100%;
+   font-size: 1.7rem;
+   padding: 20px 0;
+   flex-basis: 100%;
+   text-align: center;
+}
+
+
+
+
+   /* HERO STYLE */
+
+    .main-hero{
+        height: 300px;
+    }
+    .main-hero-img{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    
+    .second-hero {
+        height: 400px;
+    }
+
+
+
+
+/* Author Style */ 
+
+
+.author{
+    display: flex;
+    flex-direction: row;
+    height:230px; 
+  
+    
+}
+.senti{
+    width: 15%;
+    margin-top:10px;
+}
+.senti-img{
+    width: 80%;
+    height:200px ;
+
+}
+
+.senti-text{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    color: aliceblue;
+
+
+}
+.p1{ 
+    height: 70px;
+    padding-top: 10px;
+    line-height: 33px;
+    position: relative;
+}
+.meet{
+    font-size: 38px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    
+    position: absolute;
+    right: 7%;
+}
+.sentirenla{
+    font-size: 35px;
+    font-family: great vibes;
+    letter-spacing: 4px;
+
+    position: absolute;
+    right: 7%;
+}
+.p2{
+     
+    height:100px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    font-size:13px;
+    font-family:  inherit;
+    text-align: right;
+    margin-bottom: 5px;
+    padding-right: 7%;
+
+
+}
+.button{
+    height: 50px; 
+    position: relative;
+ 
+}
+.but{
+   position: absolute;
+   right: 7%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color:aliceblue;
+    font-size: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    
+}
+.but:hover{
+    padding: 9px;
+    font-size: 13px;
+}
+
+
+
+    
+}
+
+
+

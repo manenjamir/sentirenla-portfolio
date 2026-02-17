@@ -213,6 +213,17 @@ a:hover{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
+
+.site-footer {
+    background-color:rgb(255, 224, 183);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    
+}
+
+
 .mobile-main-header,.mobile-sub-header,.burger-menu,.burger-menu-but{
     display: none;
 }
@@ -226,9 +237,7 @@ a:hover{
         height: 40px; 
     }
     
-    .sub-header{
-
-    }
+    
     .left{
         width: 230px;
         display: flex;

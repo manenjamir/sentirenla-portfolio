@@ -118,9 +118,7 @@ a:hover{
     justify-content:center;
     
 }
-.bottom{
 
-}
 
 
 /*  email   */
@@ -177,6 +175,15 @@ form button:hover {
 }
 
 
+.site-footer {
+    background-color:rgb(255, 224, 183);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    
+}
+
 .mobile-main-header,.mobile-sub-header,.burger-menu,.burger-menu-but{
     display: none;
 }
@@ -191,9 +198,7 @@ form button:hover {
         height: 40px; 
     }
     
-    .sub-header{
 
-    }
     .left{
         width: 230px;
         display: flex;
@@ -444,10 +449,6 @@ form button:hover {
     justify-content:center;
     
 }
-.bottom{
-
-}
-
 
 /*  email   */
 
